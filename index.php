@@ -20,6 +20,9 @@ function studentMaker($name, $GPA) {
 // Example usage:
 $student = studentMaker("John", 3.7);
 
+// Log Name
+echo "Name: " . $student['name'] . "\n";
+
 // Log GPA
 echo "GPA: " . $student['GPA'] . "\n";
 
